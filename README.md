@@ -4,8 +4,6 @@ UyghurCharUtilities
 UyghurCharUtilities
 
 
-بۇ يازمىنى ئاخىرىدا   xirwajim تەھرىرلىگەن. ۋاقتى  2013-11-13 17:31  
-
 
 ئەسسالامۇئەلەيكۇم. . . . . . . . . . . . . . . . 
 
@@ -15,20 +13,36 @@ UyghurCharUtilities
 
 1. ئاساسىي رايوننى كېڭەيتىلگەن رايون كودىغا ئالماشتۇرۇش ئۇسۇلى(getUyPFStr)
 ئۇيغۇرچە ئالماشتۇرۇش تۈر(类، Class) ئىسمى:UyghurCharUtilities
+
+
+`
 $uyghur=new UyghurCharUtilities();
+
 //$text Almashturmakchi Bolgan Text
+
 $uyghur->getUyPFStr($text);
-مەزمۇننى كۆچۈرۈۋېلىش
+`
+
 2. كېڭەيتىلگەن رايوننى ئاساسىي رايون كودىغا ئالماشتۇرۇش ئۇسۇلى(getUyBRStr)
+
+`
 $uyghur=new UyghurCharUtilities();
+
 //$text Almashturmakchi Bolgan Text
+
 $uyghur->getUyBRStr($text);
+`
 مەزمۇننى كۆچۈرۈۋېلىش
 3. ئۇيغۇرچە ئاساسىي رايوننى ULY كودىغا ئالماشتۇرۇش ئۇسۇلى(getUyULYStr)
-$uyghur=new UyghurCharUtilities();
+
+`$uyghur=new UyghurCharUtilities();
+
 //$text Almashturmakchi Bolgan Text
-$uyghur->getUyULYStr($text);
+
+$uyghur->getUyULYStr($text);`
+
 مەزمۇننى كۆچۈرۈۋېلىش
+
 ---------------ئۈرۈمچى ئالماس كومپيۇتېر شىركىتى--------------------
 
 ھۆرمەت بىلەن :ئۈرۈمچى ئالماس كومپيۇتېر چەكلىك شىركىتى [تور بەت ، PC دېتال ئېچىش بۆلۈمى 2013›]
