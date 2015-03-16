@@ -25,9 +25,9 @@ class UyghurCharUtilities {
 	private $_LA = 'ﻼ';
 	private $HAMZA = 1574;
 
-	private $cyrmap = array ();
-	private $cyrmapinv = array ();
-	private $pform = array ();
+	private $cyrmap = array();
+	private $cyrmapinv = array();
+	private $pform = array();
 
 	private $WDBEG = 0;
 	private $INBEG = 1;
@@ -99,168 +99,168 @@ class UyghurCharUtilities {
 		$this->cmap['?'] = 1567;
 		$this->cmap[','] = 1548;
 
-		$this->pform[$this->cmap['a'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['a'] - $this->BPAD ] = array(
 			'ﺍ',
 			'ﺍ',
 			'ﺍ',
 			'ﺎ',
 			$this->WDBEG
 		);
-		$this->pform[$this->cmap['e'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['e'] - $this->BPAD ] = array(
 			'ﻩ',
 			'ﻩ',
 			'ﻩ',
 			'ﻪ',
 			$this->WDBEG
 		);
-		$this->pform[$this->cmap['b'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['b'] - $this->BPAD ] = array(
 			'ﺏ',
 			'ﺑ',
 			'ﺒ',
 			'ﺐ',
 			$this->NOBEG
 		);
-		$this->pform[$this->cmap['p'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['p'] - $this->BPAD ] = array(
 			'ﭖ',
 			'ﭘ',
 			'ﭙ',
 			'ﭗ',
 			$this->NOBEG
 		);
-		$this->pform[$this->cmap['t'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['t'] - $this->BPAD ] = array(
 			'ﺕ',
 			'ﺗ',
 			'ﺘ',
 			'ﺖ',
 			$this->NOBEG
 		);
-		$this->pform[$this->cmap['j'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['j'] - $this->BPAD ] = array(
 			'ﺝ',
 			'ﺟ',
 			'ﺠ',
 			'ﺞ',
 			$this->NOBEG
 		);
-		$this->pform[$this->CHEE - $this->BPAD] = array (
+		$this->pform[ $this->CHEE - $this->BPAD ]      = array(
 			'ﭺ',
 			'ﭼ',
 			'ﭽ',
 			'ﭻ',
 			$this->NOBEG
 		);
-		$this->pform[$this->cmap['x'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['x'] - $this->BPAD ] = array(
 			'ﺥ',
 			'ﺧ',
 			'ﺨ',
 			'ﺦ',
 			$this->NOBEG
 		);
-		$this->pform[$this->cmap['d'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['d'] - $this->BPAD ] = array(
 			'ﺩ',
 			'ﺩ',
 			'ﺪ',
 			'ﺪ',
 			$this->INBEG
 		);
-		$this->pform[$this->cmap['r'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['r'] - $this->BPAD ] = array(
 			'ﺭ',
 			'ﺭ',
 			'ﺮ',
 			'ﺮ',
 			$this->INBEG
 		);
-		$this->pform[$this->cmap['z'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['z'] - $this->BPAD ] = array(
 			'ﺯ',
 			'ﺯ',
 			'ﺰ',
 			'ﺰ',
 			$this->INBEG
 		);
-		$this->pform[$this->SZEE - $this->BPAD] = array (
+		$this->pform[ $this->SZEE - $this->BPAD ]      = array(
 			'ﮊ',
 			'ﮊ',
 			'ﮋ',
 			'ﮋ',
 			$this->INBEG
 		);
-		$this->pform[$this->cmap['s'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['s'] - $this->BPAD ] = array(
 			'ﺱ',
 			'ﺳ',
 			'ﺴ',
 			'ﺲ',
 			$this->NOBEG
 		);
-		$this->pform[$this->SHEE - $this->BPAD] = array (
+		$this->pform[ $this->SHEE - $this->BPAD ]      = array(
 			'ﺵ',
 			'ﺷ',
 			'ﺸ',
 			'ﺶ',
 			$this->NOBEG
 		);
-		$this->pform[$this->GHEE - $this->BPAD] = array (
+		$this->pform[ $this->GHEE - $this->BPAD ]      = array(
 			'ﻍ',
 			'ﻏ',
 			'ﻐ',
 			'ﻎ',
 			$this->NOBEG
 		);
-		$this->pform[$this->cmap['f'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['f'] - $this->BPAD ] = array(
 			'ﻑ',
 			'ﻓ',
 			'ﻔ',
 			'ﻒ',
 			$this->NOBEG
 		);
-		$this->pform[$this->cmap['q'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['q'] - $this->BPAD ] = array(
 			'ﻕ',
 			'ﻗ',
 			'ﻘ',
 			'ﻖ',
 			$this->NOBEG
 		);
-		$this->pform[$this->cmap['k'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['k'] - $this->BPAD ] = array(
 			'ﻙ',
 			'ﻛ',
 			'ﻜ',
 			'ﻚ',
 			$this->NOBEG
 		);
-		$this->pform[$this->cmap['g'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['g'] - $this->BPAD ] = array(
 			'ﮒ',
 			'ﮔ',
 			'ﮕ',
 			'ﮓ',
 			$this->NOBEG
 		);
-		$this->pform[$this->NGEE - $this->BPAD] = array (
+		$this->pform[ $this->NGEE - $this->BPAD ]      = array(
 			'ﯓ',
 			'ﯕ',
 			'ﯖ',
 			'ﯔ',
 			$this->NOBEG
 		);
-		$this->pform[$this->cmap['l'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['l'] - $this->BPAD ] = array(
 			'ﻝ',
 			'ﻟ',
 			'ﻠ',
 			'ﻞ',
 			$this->NOBEG
 		);
-		$this->pform[$this->cmap['m'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['m'] - $this->BPAD ] = array(
 			'ﻡ',
 			'ﻣ',
 			'ﻤ',
 			'ﻢ',
 			$this->NOBEG
 		);
-		$this->pform[$this->cmap['n'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['n'] - $this->BPAD ] = array(
 			'ﻥ',
 			'ﻧ',
 			'ﻨ',
 			'ﻦ',
 			$this->NOBEG
 		);
-		$this->pform[$this->cmap['h'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['h'] - $this->BPAD ] = array(
 			'ﻫ',
 			'ﻫ',
 			'ﻬ',
@@ -268,164 +268,162 @@ class UyghurCharUtilities {
 			$this->NOBEG
 		);
 
-		$this->pform[$this->cmap['o'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['o'] - $this->BPAD ] = array(
 			'ﻭ',
 			'ﻭ',
 			'ﻮ',
 			'ﻮ',
 			$this->INBEG
 		);
-		$this->pform[$this->cmap['u'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['u'] - $this->BPAD ] = array(
 			'ﯗ',
 			'ﯗ',
 			'ﯘ',
 			'ﯘ',
 			$this->INBEG
 		);
-		$this->pform[$this->cmap['ö'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['ö'] - $this->BPAD ] = array(
 			'ﯙ',
 			'ﯙ',
 			'ﯚ',
 			'ﯚ',
 			$this->INBEG
 		);
-		$this->pform[$this->cmap['ü'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['ü'] - $this->BPAD ] = array(
 			'ﯛ',
 			'ﯛ',
 			'ﯜ',
 			'ﯜ',
 			$this->INBEG
 		);
-		$this->pform[$this->cmap['w'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['w'] - $this->BPAD ] = array(
 			'ﯞ',
 			'ﯞ',
 			'ﯟ',
 			'ﯟ',
 			$this->INBEG
 		);
-		$this->pform[$this->cmap['é'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['é'] - $this->BPAD ] = array(
 			'ﯤ',
 			'ﯦ',
 			'ﯧ',
 			'ﯥ',
 			$this->NOBEG
 		);
-		$this->pform[$this->cmap['i'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['i'] - $this->BPAD ] = array(
 			'ﻯ',
 			'ﯨ',
 			'ﯩ',
 			'ﻰ',
 			$this->NOBEG
 		);
-		$this->pform[$this->cmap['y'] - $this->BPAD] = array (
+		$this->pform[ $this->cmap['y'] - $this->BPAD ] = array(
 			'ﻱ',
 			'ﻳ',
 			'ﻴ',
 			'ﻲ',
 			$this->NOBEG
 		);
-		$this->pform[$this->HAMZA - $this->BPAD] = array (
+		$this->pform[ $this->HAMZA - $this->BPAD ]     = array(
 			'ﺋ',
 			'ﺋ',
 			'ﺌ',
 			'ﮌ',
 			$this->NOBEG
 		);
-		$this->lsyn = $this->pform[$this->cmap['l'] - $this->BPAD];
+		$this->lsyn                                    = $this->pform[ $this->cmap['l'] - $this->BPAD ];
 
 	}
 
-	public function getUyPFStr($str) {
+	public function getUyPFStr( $str ) {
 
-	
-		if(!$str)
-		{
+
+		if ( ! $str ) {
 			return $str;
 		}
-		$syn = array ();
-		$tsyn = array ();
-		$bt = $this->WDBEG;
-		$strArray=preg_split("//u", $str, -1, PREG_SPLIT_NO_EMPTY);
-		$pfstr = "";
-		$n = count($strArray);
-		$i = 0;
-		$j = 0;
+		$syn      = array();
+		$tsyn     = array();
+		$bt       = $this->WDBEG;
+		$strArray = preg_split( "//u", $str, - 1, PREG_SPLIT_NO_EMPTY );
+		$pfstr    = "";
+		$n        = count( $strArray );
+		$i        = 0;
+		$j        = 0;
 
-		$pfwc = '\0'; // presentation form char
+		$pfwc   = '\0'; // presentation form char
 		$prevwc = '\0'; // previous char
-		$ppfwc = '\0'; // previous presenation form char
+		$ppfwc  = '\0'; // previous presenation form char
 
-		$pfwp = array ();
+		$pfwp = array();
 
-		for ($i = 0; $i < $n; $i++) {
-			$wc = hexdec(json_encode($strArray[$i]));
+		for ( $i = 0; $i < $n; $i ++ ) {
+			$wc = hexdec( json_encode( $strArray[ $i ] ) );
 
-			if (($this->BPAD) <= $wc && $wc < ($this->BMAX)) {
+			if ( ( $this->BPAD ) <= $wc && $wc < ( $this->BMAX ) ) {
 
-				if(array_key_exists($wc - $this->BPAD,$this->pform)){
-					$syn = $this->pform[$wc - $this->BPAD]; 
-				}else{
-					$syn = array ();
+				if ( array_key_exists( $wc - $this->BPAD, $this->pform ) ) {
+					$syn = $this->pform[ $wc - $this->BPAD ];
+				} else {
+					$syn = array();
 				}
-				if ($syn) {
+				if ( $syn ) {
 
-					if ($bt == $this->WDBEG || $bt == $this->INBEG) {
-						$pfwc = $syn[0];  
+					if ( $bt == $this->WDBEG || $bt == $this->INBEG ) {
+						$pfwc = $syn[0];
 
 					} else {
-						$pfwc = $syn[3];  
+						$pfwc = $syn[3];
 
 					}
 
 					// this means the previous letter was a joinable Uyghur
 					// letter
-					if ($bt != $this->WDBEG) {
-						$tsyn = $this->pform[$prevwc - $this->BPAD];
+					if ( $bt != $this->WDBEG ) {
+						$tsyn = $this->pform[ $prevwc - $this->BPAD ];
 
 						// special cases for LA and _LA
-						if ($ppfwc == $this->lsyn[0] && $wc == $this->cmap['a']) {
-							$pfwp[$j -1] = $this->LA;
-							$bt = $this->WDBEG;
+						if ( $ppfwc == $this->lsyn[0] && $wc == $this->cmap['a'] ) {
+							$pfwp[ $j - 1 ] = $this->LA;
+							$bt             = $this->WDBEG;
 							continue;
-						}
-						elseif ($ppfwc == $this->lsyn[3] && $wc == $this->cmap['a']) {
-							$pfwp[$j -1] = $this->_LA;
-							$bt = $this->WDBEG;
+						} elseif ( $ppfwc == $this->lsyn[3] && $wc == $this->cmap['a'] ) {
+							$pfwp[ $j - 1 ] = $this->_LA;
+							$bt             = $this->WDBEG;
 							continue;
 						}
 
 						// update previous character
-						if ($ppfwc == $tsyn[0]) {
-							$pfwp[$j -1] = $tsyn[1];
-						}
-						elseif ($ppfwc == $tsyn[3]) {
-							$pfwp[$j -1] = $tsyn[2];
+						if ( $ppfwc == $tsyn[0] ) {
+							$pfwp[ $j - 1 ] = $tsyn[1];
+						} elseif ( $ppfwc == $tsyn[3] ) {
+							$pfwp[ $j - 1 ] = $tsyn[2];
 						}
 					}
 					$bt = $syn[4]; // we will need this in next round
 				} else { // a non-Uyghur char in basic range
 
-					$pfwc =$strArray[$i];  
-					$bt = $this->WDBEG;
+					$pfwc = $strArray[ $i ];
+					$bt   = $this->WDBEG;
 				}
 			} else { // not in basic Arabic range ( 0x0600-0x06FF )
 
-				$pfwc = $strArray[$i]; 
-				$bt = $this->WDBEG;
+				$pfwc = $strArray[ $i ];
+				$bt   = $this->WDBEG;
 			}
 
-			$pfwp[$j] = $pfwc;
-			$ppfwc = $pfwc; 
-			$prevwc = $wc;
-			$j++;
+			$pfwp[ $j ] = $pfwc;
+			$ppfwc      = $pfwc;
+			$prevwc     = $wc;
+			$j ++;
 		}
 
-		$pfstr = implode('', $pfwp);  
+		$pfstr = implode( '', $pfwp );
+
 		return $pfstr;
 	}
 
-	private function GetUy0600Char($aChar) {  
-		switch ($aChar) {
+	private function GetUy0600Char( $aChar ) {
+		switch ( $aChar ) {
 			case 'ﺏ' :
 			case 'ﺑ' :
 			case 'ﺒ' :
@@ -609,47 +607,134 @@ class UyghurCharUtilities {
 				return "-";
 
 		}
+
 		return $aChar;
 	}
 
-	public function getUyBRStr($text) {
+	public function getUyBRStr( $text ) {
 
-		if($text)
-		{
-			$strArray=preg_split("//u", $text, -1, PREG_SPLIT_NO_EMPTY);
-		$n =count($strArray);
-		$res = "";
+		if ( $text ) {
+			$strArray = preg_split( "//u", $text, - 1, PREG_SPLIT_NO_EMPTY );
+			$n        = count( $strArray );
+			$res      = "";
 
-		for ($i = 0; $i < $n; $i++) {
-			$wc = hexdec(json_encode($strArray[$i]));
-			if ($wc < 255) {
-				$res .=$strArray[$i];
+			for ( $i = 0; $i < $n; $i ++ ) {
+				$wc = hexdec( json_encode( $strArray[ $i ] ) );
+				if ( $wc < 255 ) {
+					$res .= $strArray[ $i ];
 
-			} else {
-				$res .= $this->GetUy0600Char($strArray[$i]);
+				} else {
+					$res .= $this->GetUy0600Char( $strArray[ $i ] );
 
+				}
 			}
-		}
-		return $res;
-		}
-		else 
-		return $text;
-		
-	}
 
-	public function getUyULYStr($text){
-	
-		if(!$text)
-		{
+			return $res;
+		} else {
 			return $text;
 		}
-		 $text = " ".$text;
-        $uy = array(" ئا"," ئە"," ئې"," ئى"," ئو"," ئۇ"," ئۆ"," ئۈ","ا","ە","ې","ى","و","ۇ","ۆ","ۈ","ش","ڭ","غ","چ","ب","د","ف","گ","ھ","ج","ك","ل","م","ن","پ","ق","ر","س","ت","ۋ","ي","ز","خ","ژ","،","؟","؛");
-        $uly = array(" a"," e"," é"," i"," o"," u"," ö"," ü","a","e","é","i","o","u","ö","ü","sh","ng","gh","ch","b","d","f","g","h","j","k","l","m","n","p","q","r","s","t","w","y","z","x","J",",","?",";");
-        $text = str_replace($uy, $uly, $text);
-        return $text;
+
 	}
-	
- 
+
+
+
+	function getUyULYStr( $text, $Space = '-' ) {
+		if ( ! $text ) {
+			return $text;
+		}
+		//$text = " ".$text;
+		$uy = array(
+			"ئ",
+			"ا",
+			"ە",
+			"ې",
+			"ى",
+			"و",
+			"ۇ",
+			"ۆ",
+			"ۈ",
+			"ش",
+			"ڭ",
+			"غ",
+			"چ",
+			"ب",
+			"د",
+			"ف",
+			"گ",
+			"ھ",
+			"ج",
+			"ك",
+			"ل",
+			"م",
+			"ن",
+			"پ",
+			"ق",
+			"ر",
+			"س",
+			"ت",
+			"ۋ",
+			"ي",
+			"ز",
+			"خ",
+			"ژ",
+			"،",
+			"؟",
+			"!",
+			"؛",
+			"(",
+			")",
+			" "
+		);
+
+		$uly = array(
+			"",
+			"a",
+			"e",
+			"e",
+			"i",
+			"o",
+			"u",
+			"o",
+			"u",
+			"sh",
+			"ng",
+			"gh",
+			"ch",
+			"b",
+			"d",
+			"f",
+			"g",
+			"h",
+			"j",
+			"k",
+			"l",
+			"m",
+			"n",
+			"p",
+			"q",
+			"r",
+			"s",
+			"t",
+			"w",
+			"y",
+			"z",
+			"x",
+			"J",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"$Space"
+		);
+
+		$text = str_replace( $uy, $uly, $text );
+
+		return $text;//substr($text,1);
+	}
+
+
 }
+
 ?>
