@@ -638,7 +638,7 @@ class UyghurCharUtilities {
 
 
 
-	function getUyULYStr( $text, $Space = '-' ) {
+	function getUyULYStr( $text) {
 		if ( ! $text ) {
 			return $text;
 		}
@@ -720,13 +720,13 @@ class UyghurCharUtilities {
 			"z",
 			"x",
 			"J",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"$Space"
+			",",
+			"?",
+			"!",
+			";",
+			")",
+			"(",
+			" "
 		);
 
 		$text = str_replace( $uy, $uly, $text );
