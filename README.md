@@ -41,13 +41,6 @@ $uyghur=new UyghurCharUtilities();
 $uyghur->getUyULYStr($text);
 ```
 
-**ئۈرۈمچى ئالماس كومپيۇتېر شىركىتى**
-
-ھۆرمەت بىلەن :ئۈرۈمچى ئالماس كومپيۇتېر چەكلىك شىركىتى [تور بەت ، PC دېتال ئېچىش بۆلۈمى 2013›]
-
-بىر قىسىم تەۋسىيە ئەپلىرىمىز: [http://app.almas.biz](http://app.almas.biz)
-
-ئىشلىتىش جەرياندا مەسىلە بايقىغان بولسىڭىز بىز بىلەن ئالاقىلىشىڭ:
  
 qq:343487775
 [نۇرقۇتتىكى ئادىرسى](http://www.nurqut.net/ud/forum.php?mod=viewthread&tid=17763&extra=)
