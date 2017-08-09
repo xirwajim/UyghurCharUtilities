@@ -1,4 +1,7 @@
 UyghurCharUtilities
 ===================
 
-empty！
+```
+    composer require xirwajim/uyghur-char-utilities
+```
+
