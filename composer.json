@@ -1,22 +1,30 @@
 {
-    "name": "xirwajim/uyghur-char-utilities",
+    "name": "xirwajim/UyghurCharUtilities",
     "type": "library",
-    "description": "UyghurCharUtilities",
+    "description": "Uyghur Char Utilities",
     "keywords": ["uyghur","uly",""],
-    "homepage": "https://github.com/xirwajim/UyghurCharUtilities",
+    "homepage": "https://www.Arnale.com",
     "license": "MIT",
+    "version": "2.0.0",
     "authors": [
         {
             "name": "Xirwajim Abliz",
             "email": "xirwajim@gmail.com",
-            "homepage": "http://arzu.me",
+            "homepage": "https://www.arnale.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.4.0"
     },
     "autoload": {
-        "files": ["UyghurCharUtilities.class.php"]
-    }
+        "psr-4": {
+            "UyghurCharUtilities\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "UyghurCharUtilities\\Tests\\": "tests/"
+        }
+    },
 }

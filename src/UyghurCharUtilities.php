@@ -1,18 +1,13 @@
 <?php
-
-/* Author: ئۈرۈمچى ئالماس كومپيۇتېر چەكلىك شىركىتى
- * Version: 1.01 (2013-11-13)
- * http://www.almas.biz/		
- * 
+namespace UyghurCharUtilities;
+/* Author: xirwajim
+ * Version: 2.0 (2017-04-04)
+ * https://www.arnale.com/
+ * 新疆阿尔纳乐电子科技有限公司
  */
-
 
 class UyghurCharUtilities
 {
-
-
-
-
     private $BPAD = 1536;
     private $BMAX = 1791;
     private $EPAD = 64256;
@@ -600,7 +595,6 @@ class UyghurCharUtilities
             case 'ﮭ' :
             case 'ﻫ' :
             case 'ﻬ' :
-
                 return "ھ";
             case 'ﺋ' :
             case 'ﺌ' :
@@ -608,9 +602,7 @@ class UyghurCharUtilities
             case 'ﻻ' :
             case 'ﻼ' :
                 return "لا";
-
             case '−' :
-
                 return "-";
 
         }
@@ -736,10 +728,8 @@ class UyghurCharUtilities
             "(",
             " "
         );
-
         $text = str_replace($uy, $uly, $text);
-
-        return $text;//substr($text,1);
+        return $text;
     }
 
 
