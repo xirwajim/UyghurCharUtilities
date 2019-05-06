@@ -1,10 +1,5 @@
 <?php
 namespace UyghurCharUtilities;
-/* Author: xirwajim
- * Version: 2.0 (2017-04-04)
- * https://www.arnale.com/
- * 新疆阿尔纳乐电子科技有限公司
- */
 
 class UyghurCharUtilities
 {
@@ -36,7 +31,6 @@ class UyghurCharUtilities
 
     public function __construct()
     {
-
         $this->cmap['A'] = 1575;
         $this->cmap['a'] = 1575;
         $this->cmap['B'] = 1576;
@@ -338,7 +332,6 @@ class UyghurCharUtilities
     public function getUyPFStr($str)
     {
 
-
         if (!$str) {
             return $str;
         }
@@ -350,13 +343,10 @@ class UyghurCharUtilities
         $n = count($strArray);
         $i = 0;
         $j = 0;
-
         $pfwc = '\0'; // presentation form char
         $prevwc = '\0'; // previous char
         $ppfwc = '\0'; // previous presenation form char
-
         $pfwp = array();
-
         for ($i = 0; $i < $n; $i++) {
             $wc = hexdec(json_encode($strArray[$i]));
 
@@ -368,15 +358,12 @@ class UyghurCharUtilities
                     $syn = array();
                 }
                 if ($syn) {
-
                     if ($bt == $this->WDBEG || $bt == $this->INBEG) {
                         $pfwc = $syn[0];
 
                     } else {
                         $pfwc = $syn[3];
-
                     }
-
                     // this means the previous letter was a joinable Uyghur
                     // letter
                     if ($bt != $this->WDBEG) {
@@ -402,7 +389,6 @@ class UyghurCharUtilities
                     }
                     $bt = $syn[4]; // we will need this in next round
                 } else { // a non-Uyghur char in basic range
-
                     $pfwc = $strArray[$i];
                     $bt = $this->WDBEG;
                 }
@@ -558,15 +544,11 @@ class UyghurCharUtilities
             case 'ﯲ' :
             case 'ﯳ' :
                 return "ئۆ";
-
             case 'ﯙ' :
             case 'ﯚ' :
-
                 return "ۆ";
-
             case 'ﯴ' :
             case 'ﯵ' :
-
                 return "ئۈ";
             case 'ﯛ' :
             case 'ﯜ' :
